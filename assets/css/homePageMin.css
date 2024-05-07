@@ -1,0 +1,1067 @@
+html,
+body {
+    width: 100%
+}
+
+footer .nav-container img {
+    width: 44px
+}
+
+.nav-container li {
+    margin-bottom: 0 !important
+}
+
+.game-list li {
+    margin-bottom: 10px !important
+}
+
+.shadow {
+    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.10) !important;
+}
+.rounded {
+    border-radius: 5px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+.rounded {
+    border-radius: .25rem !important;
+}
+.border-0 {
+    border: 0 !important;
+}
+.gamerate{
+    background-color: white;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white !important
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0
+}
+
+iframe {
+    border-width: 0;
+    opacity: 0;
+    display: none
+}
+
+.desktop-view {
+    margin: auto
+}
+
+.home-game-desktop {
+    max-height: 984px;
+    margin: auto;
+    background: linear-gradient(180deg, #130E32 68.48%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.header-blur {
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px)
+}
+
+.row-container {
+    margin: auto;
+    max-width: 1212px
+}
+
+footer .rush-logo {
+    width: 126px
+}
+
+.site-top {
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(84.56deg, #FFA370 12.23%, #FFDF6C 94.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+
+.game-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+    mix-blend-mode: normal
+}
+
+.game-sm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, .5);
+    mix-blend-mode: normal
+}
+
+.game-mob {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+    mix-blend-mode: normal
+}
+
+.header {
+    background-color: transparent;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 68px;
+    z-index: 20
+}
+
+.main-heading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48.9754px;
+    line-height: 58px;
+    text-align: center;
+    color: #25CF43
+}
+
+.main-heading2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff
+}
+
+.head-one {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.3658px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 16px
+}
+
+.header .nav-container {
+    padding: 15px 12vw 10px 9vw;
+    padding-left: calc(50vw - 606px);
+    justify-content: flex-start;
+    width: 100vw
+}
+
+.desktop-menu {
+    margin-top: -10px;
+    width: 264px;
+    padding: 12px 28px 28px 28px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(78, 45, 210, .5) 0%, rgba(37, 21, 100, .5) 64.58%);
+    box-shadow: -5px 0 40px rgba(0, 0, 0, .4);
+    backdrop-filter: blur(66px)
+}
+
+.main-container {
+    background: #000;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    height: auto
+}
+
+.home-heading {
+    width: 30vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.home-first-col {
+    display: -webkit-flex;
+    padding-left: 0;
+    max-width: 516px;
+    max-height: 440px;
+    padding-top: 40px;
+    height: 440px;
+    text-align: start;
+    align-items: flex-start;
+    -webkit-align-items: flex-start
+}
+
+.footer-icons {
+    margin-top: 80px
+}
+
+.deskbtndiv {
+    width: 100%
+}
+
+.phoneNumTextField {
+    background: transparent;
+    border: 1px solid transparent;
+    max-width: 600px;
+    max-height: 60px
+}
+
+.downloadbtnGame {
+    background: linear-gradient(180deg, #00D047 0%, #00A040 100%);
+    box-shadow: 0 4px 12px -5px rgba(40, 153, 83, .12);
+    border-radius: 100px;
+    width: 60%;
+    text-align: center;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-top: 16px
+}
+
+.downloadbtntextGame {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.phoneNumTextDivWrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    margin: 0
+}
+
+.onScrollDiv .phoneNumTextDivWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding-top: 20px
+}
+
+.phoneNumTextDivWrapper:empty {
+    display: none
+}
+
+.phoneNumTextDiv {
+    content: "";
+    width: 500px;
+    max-width: 600px;
+    height: 48px;
+    inset: 0;
+    border-radius: 100px;
+    padding: 1px;
+    background: linear-gradient(140deg, rgba(255, 123, 82, 1), rgba(131, 67, 255, .76));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column
+}
+
+.phoneNumTextPlaceholder {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -38.4px
+}
+
+.onScrollDiv .phoneNumTextPlaceholder {
+    top: -32px
+}
+
+.smsButton {
+    border-radius: 100px;
+    max-width: 500px;
+    max-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 0
+}
+
+.sms-div {
+    width: 100%
+}
+
+footer {
+    background: #000;
+    margin-top: 0
+}
+
+.rush-logo {
+    width: 40%
+}
+
+a.rush-logo {
+    width: 130px
+}
+
+.second-col {
+    width: 35vw;
+    padding-right: 0
+}
+
+.reasons-div {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin: auto
+}
+
+.reason-bg {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 50px 27.33px 27.33px 27.33px;
+    margin: 10px
+}
+
+.reason-sm {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 10px;
+    padding: 50px 27.33px 27.33px 27.33px
+}
+
+.reason-text-sm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 0
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, .05)
+}
+
+.reason-text-bg {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(84.56deg, #FFA370 12.23%, #FFDF6C 94.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 30px
+}
+
+.img-big {
+    width: 732px;
+    height: 317px
+}
+
+.img-small {
+    width: 326px;
+    height: 317px
+}
+
+.home-pay {
+    width: auto;
+    height: 40px;
+    margin-right: 50px
+}
+
+.home-pay:last-child {
+    margin-right: 0
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: block;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0);
+    object-position: 50% 50%
+}
+
+.testimonial-box {
+    height: max-content;
+    color: #FFF;
+    background: rgba(255, 255, 255, .05);
+    position: relative;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border-color: #333;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+.testimonial-box:before {
+    content: "";
+    position: absolute;
+    left: 34px;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #333
+}
+
+.testimonial-box:after {
+    content: "";
+    position: absolute;
+    left: 35px;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #000
+}
+
+.name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .5)
+}
+
+.winning {
+    color: #1BBE54
+}
+
+.testimonial-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+}
+
+.install.reason-text-bg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px
+}
+
+.install.img-small {
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.home-game-img {
+    position: relative;
+    height: auto;
+    max-width: 600px
+}
+
+.rng-icons {
+    width: 829px;
+    height: 98px
+}
+
+.rng-div {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.onScrollDiv {
+    position: fixed;
+    bottom: 0;
+    background: #1D1D1D;
+    box-shadow: -4px 0 20px rgba(255, 255, 255, .16);
+    min-height: 70px;
+    height: 80px;
+    max-height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding-left: calc(50vw - 606px);
+    padding-right: calc(50vw - 606px)
+}
+
+.phoneInputField {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(66px);
+    width: 240px;
+    height: 60px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center
+}
+
+.smsButtonText {
+    text-transform: uppercase
+}
+
+.phoneInputclass {
+    width: 160px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.phoneInputclass::placeholder {
+    color: rgba(255, 255, 255, .7);
+    mix-blend-mode: normal;
+    text-transform: uppercase;
+    opacity: 1
+}
+
+.text91 {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.smsText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #FFF
+}
+
+.main-heading1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 146.94%;
+    display: flex;
+    align-items: center;
+    color: #FFF
+}
+
+.download-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    background: linear-gradient(256.44deg, #FFD093 15.34%, #FFDD84 42.18%, #FFC880 80.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+
+.errorText {
+    min-width: 0;
+    border-radius: 100px;
+    margin-top: -40px;
+    width: 100%
+}
+
+.onScrollDiv .phoneNumTextField {
+    width: 30vw
+}
+
+.onScrollDiv .phoneNumTextField::before {
+    width: 26vw
+}
+
+.onScrollDiv .smsButton {
+    margin-top: 0;
+    width: 30vw
+}
+
+.iphoneMobImg {
+    width: 348px;
+    height: 232px;
+    margin-top: 48px
+}
+
+.ratings {
+    margin-top: 0
+}
+
+.firstcolMob {
+    height: 680px;
+    background: linear-gradient(180deg, #130E32 68.48%, #000000 83%);
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    background-size: 100vw 760px;
+    padding-top: 66px
+}
+
+.firstcolMobMain {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #130E32 68.48%, #000000 83%);
+    align-items: center;
+    flex-direction: column;
+    height: 680px;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    background-size: 100vw 760px;
+    padding-top: 66px
+}
+
+.raf-mob-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+    width: 100%
+}
+
+.raf-mob-text-green {
+    font-weight: 800;
+    color: #25CF43
+}
+
+footer .row-container {
+    margin: auto
+}
+
+.mobile-head {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 124.43%;
+    text-align: center;
+    color: #FFF
+}
+
+.downloadDivMob {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 15px;
+    height: 56px
+}
+
+.arrow {
+    margin-top: 35px;
+    margin-bottom: 55px;
+    align-self: center
+}
+
+.iosfirstBtn {
+    max-width: 100%;
+    height: 68px
+}
+
+.mobileMenu {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 20
+}
+
+.mobile-container {
+    padding: 0
+}
+
+.home-heading-mob1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .4)
+}
+
+.home-heading-mob2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(90.84deg, #FFFFFF .17%, rgba(255, 255, 255, .54) 102%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    float: left
+}
+
+.headings {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.heading-icon {
+    font-size: 30px;
+    padding-left: 5px;
+    float: inline-end
+}
+
+.Fold2Mob {
+    background: #000
+}
+
+.pay-partners {
+    width: 90%;
+    align-content: center;
+    margin-left: 20px
+}
+
+#mobileHeaderNew {
+    bottom: 0
+}
+
+.mobileGameLogoheaderNew {
+    display: flex;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    padding: 15px 16px 18px 10px;
+    width: 100vw;
+    background: #29093E;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #6B3E67 20%, #6B3E67 100%);
+    box-shadow: -4px 0 20px 0 #A148E43D;
+    background: #1D1D1D;
+    height: 100px;
+    align-items: center;
+    height: 80px
+}
+
+.mobileGameLogoheaderNewPlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    padding: 15px 16px 18px 10px;
+    width: 100vw;
+    background: #29093E;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #6B3E67 20%, #6B3E67 100%);
+    box-shadow: -4px 0 20px 0 #A148E43D;
+    background: #1D1D1D;
+    height: 100px;
+    align-items: center;
+    height: 80px
+}
+
+.mobileGameLogoheaderNewlegal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    padding: 15px 16px 18px 10px;
+    width: 100vw;
+    background: #29093E;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #6B3E67 20%, #6B3E67 100%);
+    box-shadow: -4px 0 20px 0 #A148E43D;
+    background: #1D1D1D;
+    height: 100px;
+    align-items: center;
+    height: 80px
+}
+
+.payicon-mob {
+    width: auto;
+    height: 80px
+}
+
+.install-div {
+    width: 386px;
+    margin: 0;
+    padding: 48px 30px 30px 30px
+}
+
+.faq {
+    width: 1198px;
+    border-radius: 24px;
+    margin-top: 30px
+}
+
+@media screen and (max-width:900px) {
+    .Desktop {
+        display: none
+    }
+    .Mobile {
+        display: block
+    }
+    .desktop-view {
+        display: none
+    }
+    .mobile-view {
+        display: block
+    }
+    .main-heading {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #25CF43
+    }
+    .main-heading2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        ;
+        line-height: 0;
+        text-align: center;
+        color: #fff
+    }
+    .reason-bg {
+        border-radius: 19.5238px;
+        ;
+        width: auto;
+        text-align: left;
+        margin: 5px;
+        padding: 15px 11.59px 11.59px 11.59px;
+        margin-left: 16px;
+        margin-right: 16px
+    }
+    .reason-sm {
+        border-radius: 19.5238px;
+        width: 43.5vw;
+        text-align: left;
+        padding: 15px 11px 11px 11px
+    }
+    .reason-text-sm {
+        font-weight: 400;
+        font-size: 11.7143px;
+        line-height: 13px;
+        margin-bottom: 4.55px
+    }
+    .reason-text-bg {
+        font-weight: 400;
+        font-size: 13.6667px;
+        line-height: 17px;
+        margin-bottom: 12.29px
+    }
+    .downloadbtnGame {
+        border: 0
+    }
+    .img-big {
+        width: auto;
+        height: 130px
+    }
+    .img-small {
+        width: auto;
+        height: 130.81px
+    }
+    .install.reason-text-bg {
+        font-weight: 400;
+        font-size: 16.9948px;
+        line-height: 21px
+    }
+    .text-med {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 27px
+    }
+    .text-sm {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px
+    }
+    .home-game-img {
+        width: calc(100vw - 32px)
+    }
+    .home-heading-mob1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, .4)
+    }
+    .home-heading-mob2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: .02em;
+        text-transform: uppercase;
+        background: linear-gradient(90.84deg, #FFFFFF .17%, rgba(255, 255, 255, .54) 102%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        float: left
+    }
+    footer .row-container {
+        margin: 0 auto
+    }
+    .androidButton {
+        width: 100%;
+        max-width: calc(100vw - 30px)
+    }
+    .heading-icon {
+        padding-left: 0;
+        font-size: 18px
+    }
+    .head-one {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        color: rgba(255, 255, 255, .5)
+    }
+    .headings {
+        width: max-content;
+        padding-left: 15px;
+        padding-right: 15px;
+        align-self: center;
+        align-content: center
+    }
+    .testimonial-box {
+        padding: 17px;
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px
+    }
+    .main-gallery .gallery-cell .box {
+        height: 368px;
+        padding: 40px 25px 50px 25px
+    }
+    .main-gallery .gallery-cell .box .reason-text-sm {
+        font-weight: 400;
+        font-size: 15.2953px;
+        line-height: 27px
+    }
+    .main-gallery .gallery-cell .box .reason-text-bg {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.9948px;
+        line-height: 21px
+    }
+    .cards .text-sm {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px
+    }
+    .overlay {
+        position: absolute;
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(100px);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0
+    }
+}
+
+.downloadIcon {
+    height: 22px;
+    width: 22px
+}
+
+@media screen and (min-width:910px) {
+    .Desktop {
+        display: block
+    }
+    .desktop-view {
+        display: block
+    }
+    .Mobile {
+        display: none
+    }
+    .mobile-view {
+        display: none
+    }
+}
+
+.desktop-view footer {
+    padding-bottom: 200px
+}
+
+.Mobile footer {
+    padding: 20px 16px 100px 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: rgba(255, 255, 255, .7)
+}
+
+.Mobile .footer-copy {
+    width: 100%;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 20px;
+    margin-bottom: 36px
+}
+
+.Mobile .last-content {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.Mobile .footer-icons {
+    height: auto !important
+}

@@ -1,0 +1,395 @@
+.desktop-header-new {
+    left: 0;
+    background-color: transparent;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 68px;
+    z-index: 20
+}
+
+.desktop-header-new .nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 10% 20px 10%;
+    justify-content: space-between
+}
+
+.nav-container img {
+    width: 44px
+}
+
+.nav-container .rush-logo {
+    width: auto !important
+}
+
+.nav-container-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px
+}
+
+.nav-container-links .header-link {
+    color: rgba(255, 255, 255, .7);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+.nav-container-links .games-dropdown {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+.menu {
+    justify-content: space-between;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 0;
+    color: #FFF
+}
+
+a.menu:focus {
+    color: #fff
+}
+
+.plus-icon {
+    width: 11px;
+    height: 11px;
+    margin-right: 5px
+}
+
+.minus-icon {
+    width: 11px;
+    margin-right: 5px
+}
+
+.game-option {
+    justify-content: space-between;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    padding: 16px 0 0 20px;
+    color: #FFF
+}
+
+.game-options>ul,
+.game-options>li {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0
+}
+
+.tournament-link {
+    justify-content: flex-start;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.tournament-icon {
+    background: #FE3657;
+    border-radius: 6px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    padding: 2px 8px;
+    text-transform: uppercase
+}
+
+.header-blur {
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px)
+}
+
+@media (max-width:1200px) {
+    .nav-container {
+        font-size: 12px
+    }
+}
+
+@media (max-width:1000px) {
+    .nav-container {
+        font-size: 10px
+    }
+}
+
+@media (max-width:1400px) {
+    .nav-container {
+        padding: 15px 8% 20px 8% !important
+    }
+}
+
+.main-footer-new {
+    display: flex;
+    flex-direction: column;
+    gap: 80px
+}
+
+.footer-row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+.footer-rush-logo img {
+    width: 136px
+}
+
+.footer-nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px
+}
+
+.footer-nav-container a img {
+    width: 44px;
+    height: auto
+}
+
+.footer-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 25px
+}
+
+.footer-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 20px
+}
+
+.footer-copy {
+    color: var(--text-secondary, rgba(255, 255, 255, .7));
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%
+}
+
+.footer-game-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.footer-game-list li {
+    margin: 0
+}
+
+.footer-game-category {
+    color: var(--text-tertiary, rgba(255, 255, 255, .5)) !important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.footer-game-link {
+    color: var(--text-main, #FFF) !important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.footer-copy-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.footer-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.footer-link-container a {
+    color: var(--text-secondary, rgba(255, 255, 255, .7));
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap
+}
+
+.footer-copy-container .footer-copy {
+    text-align: center;
+    width: 80%
+}
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none
+}
+
+.main-footer-new ul li {
+    list-style-type: none
+}
+
+.main-footer-new ul {
+    margin: 0;
+    padding: 0
+}
+
+.mobile-footer-new {
+    padding: 20px 16px 150px 20px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.mobile-footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.mobile-footer-copy {
+    color: var(--text-secondary, rgba(255, 255, 255, .7));
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 140%
+}
+
+.mobile-copy-center {
+    text-align: center
+}
+
+.mobile-footer-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.mobile-footer-game-category {
+    color: var(--text-tertiary, rgba(255, 255, 255, .5)) !important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100 !important;
+    line-height: 20px
+}
+
+.mobile-footer-game-list ul {
+    display: flex;
+    gap: 8px !important;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.mobile-footer-game-link {
+    color: var(--text-main, #FFF) !important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 20px
+}
+
+.mobile-footer-new ul li {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.mobile-footer-link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px !important
+}
+
+.mobile-footer-hr {
+    width: 100%;
+    background: rgba(255, 255, 255, .1);
+    height: 1px
+}
+
+.mobile-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.mobile-footer-bottom-link {
+    color: var(--text-secondary, rgba(255, 255, 255, .7));
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left
+}
+
+.mobile-footer-social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+@media (max-width:370px) {
+    .mobile-footer-bottom-link {
+        font-size: 12px
+    }
+}
