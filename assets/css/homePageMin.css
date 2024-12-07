@@ -15,25 +15,6 @@ footer .nav-container img {
     margin-bottom: 10px !important
 }
 
-.shadow {
-    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.10) !important;
-}
-.rounded {
-    border-radius: 5px;
-}
-.shadow {
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-}
-.rounded {
-    border-radius: .25rem !important;
-}
-.border-0 {
-    border: 0 !important;
-}
-.gamerate{
-    background-color: white;
-}
-
 h1,
 h2 {
     margin: 0;

@@ -1897,8 +1897,8 @@ const fullText = [{
 window.allowSubmit = !0;
 var openImageOverlay = !1,
     env = "development",
-    baseUrl = "http://thenavratan.com/";
-("thenavratan.com" === window.location.hostname || "thenavratan.com" === window.location.hostname || "thenavratan.comn" === window.location.hostname || window.location.hostname.includes("thenavratan.com")) && (baseUrl = "https://thenavratan.com", env = "production");
+    baseUrl = "http://klubbl.in/";
+("www.klubbl.in" === window.location.hostname || "klubbl.in" === window.location.hostname || "w.klubbl.in" === window.location.hostname || window.location.hostname.includes("klubbl.in")) && (baseUrl = "https://klubbl.in", env = "production");
 var uaParser = new UAParser(window.navigator.userAgent),
     deviceInfo = uaParser.getDevice();
 
@@ -2165,7 +2165,7 @@ function checkIfOrganic() {
 
 function checkIfInternal() {
     const e = document.referrer;
-    return !(!e.includes("localhost:") && !e.includes("thenavratan.com.app.link"))
+    return !(!e.includes("localhost:") && !e.includes("klubbl.in.app.link"))
 }
 
 function callBranchUrl(e) {
